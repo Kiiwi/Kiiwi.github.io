@@ -51,3 +51,9 @@ SOCIAL = (
     ('github', 'https://github.com/kiiwi'),
     ('linkedin', 'http://www.linkedin.com/in/tommy-ryan'),
 )
+
+# Pretty URLs
+ARTICLE_URL = 'posts/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
