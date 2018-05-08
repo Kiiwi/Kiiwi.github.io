@@ -53,7 +53,7 @@ SOCIAL = (
 )
 
 # Pretty URLs
-ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = '{slug}'
 
 
