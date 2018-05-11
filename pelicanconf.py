@@ -36,7 +36,7 @@ PLUGINS = ['ipynb.markup']
 THEME = 'MinimalXY'
 
 # Theme customizations
-#MINIMALXY_CUSTOM_CSS = 'static/custom.css'
+MINIMALXY_CUSTOM_CSS = 'static/css/custom.css'
 MINIMALXY_START_YEAR = 2018
 MINIMALXY_CURRENT_YEAR = date.today().year
 
@@ -56,4 +56,5 @@ SOCIAL = (
 ARTICLE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = '{slug}'
 
-
+# Ignore Notebook checkpoints
+IGNORE_FILES = ['.ipynb_checkpoints']
